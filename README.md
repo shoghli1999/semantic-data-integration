@@ -21,4 +21,4 @@ python Task10_Parsing_XML_-_Node.py
 python Task10_Parsing_XML_-_Path.py
 ```
 
-The scripts use Windows paths from our machines (`\\`), and the embedding part expects the `glove-twitter-25` vectors from `gensim-data` in your home folder. Adjust the paths before running.
+The scripts use Windows paths from our machines (`\\`), and the embedding part expects the `glove-twitter-25` vectors from `gensim-data` in your home folder. Adjust the paths before running. `ParseXML.py` reads XML versions of the datasets from `Implementation/XmlFiles/`, which are not in this repository; the two `Task10` scripts have the element paths written into the code and run on their own.
